@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск Событий Рядом</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Партнер-Программист: Поиск Событий Рядом 🗺️</h1>
+        <p>Находите фестивали, концерты и другие события вокруг Hürth-Efferen (в радиусе ~100 км).</p>
+    </header>
+
+    <main>
+        <section id="filters">
+            <h2>Фильтры</h2>
+            <div class="filter-group">
+                <label for="date-start">Дата С:</label>
+                <input type="date" id="date-start">
+                <label for="date-end">Дата По:</label>
+                <input type="date" id="date-end">
+            </div>
+            
+            <div class="filter-group" id="topics-container">
+                </div>
+            
+            <button onclick="filterEvents()">Найти События</button>
+        </section>
+
+        <section id="results">
+            <h2>Найденные События</h2>
+            <div id="events-list">
+                <p>Здесь будут отображаться события после нажатия кнопки "Найти События".</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Проект разработан с помощью Партнера-Программиста.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
