@@ -1,0 +1,13 @@
+{
+  "name": "event-scraper-api",
+  "version": "1.0.0",
+  "description": "Proxy API for scraping events using LLM.",
+  "main": "api/scrape.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.19.0", 
+    "axios": "^1.6.8" 
+  }
+}
